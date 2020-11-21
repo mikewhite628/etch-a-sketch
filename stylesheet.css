@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+body {
+    background: linear-gradient(#642b73, #c6426e);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    font-family: 'Nerko One', sans-serif;
+
+}
+
+h1 {
+    margin-top: -10px;
+    text-shadow: .1px .1px 1px;
+    font-size: 50px;
+    color: #efa6b6;
+}
+.sketch-toggles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#container{
+display: flex;
+justify-content: center;
+
+}
+
+
+.grid-box { 
+    margin-top: 50px;
+    display: grid;
+    height: 55vh;
+    width: 55vw;
+}
+
+.cell {
+    border: 1px solid rgba(0,0,0,.8);
+    background: linen;
+ 
+}
+
+
+.clear-grid {
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    background-color: #efa6b6;
+    box-shadow: #efa6b6 .8px .8px 20px;
+    border: none;
+    transition: transform 1s;
+    font-family: 'Nerko One';
+    font-size: 30px;
+    color: azure;
+ 
+}
+
+.clear-grid:focus{
+    outline: none;
+}
+
+.clear-grid:hover{
+    box-shadow: #c44460 10px 10px 100px;
+    transform: scale(1.1);
+}
+
+
+
+
+
